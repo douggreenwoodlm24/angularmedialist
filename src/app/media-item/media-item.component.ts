@@ -10,7 +10,7 @@ export class MediaItemComponent implements OnInit {
 	@Output() delete = new EventEmitter();
 
 	onDelete(){
-		//this.delete.emit();
+		this.delete.emit(this.mediaItem); 
 	}
 
   constructor() { }
