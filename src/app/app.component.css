@@ -1,6 +1,18 @@
 :host {
   display: flex;
   font-family: Arial, Helvetica, sans-serif;
+  min-height: 100%;
+}
+nav {
+  display: flex;
+  flex-direction: column;
+  width: 68px;
+  background-color: #3380b1;
+}
+nav .icon {
+  width: 48px;
+  height: 48px;
+  margin: 10px;
 }
 section {
   width: 100%;
@@ -14,5 +26,5 @@ section > header > h1 {
   font-size: 2em;
 }
 section > header .description {
-  font-style: italic;
+  
 }

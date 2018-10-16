@@ -74,43 +74,43 @@ export class MockXHRBackend implements HttpBackend {
   _mediaItems = [
     {
       id: 1,
-      name: "Firebug",
-      medium: "Series",
-      category: "Science Fiction",
-      year: 2010,
-      watchedOn: 1294166565384,
+      name: "Cold War",
+      medium: "Movies",
+      category: "Drama",
+      year: 2018,
+      watchedOn: null,
       isFavorite: false
     },
     {
       id: 2,
-      name: "The Small Tall",
-      medium: "Movies",
-      category: "Comedy",
-      year: 2015,
+      name: "Doctor Who",
+      medium: "Series",
+      category: "Drama",
+      year: 2018,
       watchedOn: null,
       isFavorite: true
     }, {
       id: 3,
-      name: "The Redemption",
-      medium: "Movies",
-      category: "Action",
-      year: 2016,
+      name: "WTA Moscow",
+      medium: "Series",
+      category: "Drama",
+      year: 2018,
       watchedOn: null,
       isFavorite: false
     }, {
       id: 4,
-      name: "Hoopers",
+      name: "Montalbano",
       medium: "Series",
       category: "Drama",
-      year: null,
+      year: 2014,
       watchedOn: null,
       isFavorite: true
     }, {
       id: 5,
-      name: "Happy Joe: Cheery Road",
+      name: "On Chesil Beach",
       medium: "Movies",
-      category: "Action",
-      year: 2015,
+      category: "Drama",
+      year: 2018,
       watchedOn: 1457166565384,
       isFavorite: false
     }
