@@ -1,4 +1,4 @@
-<h2>{{ mediaItem.name | slice: 0: 20 }}...</h2>
+<h2>{{ mediaItem.name }}</h2>
 <ng-template [ngIf]="mediaItem.watchedOn">
 <div>Watched on {{ mediaItem.watchedOn | date: 'shortDate' }}</div>
 </ng-template>
